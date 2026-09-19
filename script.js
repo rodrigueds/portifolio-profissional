@@ -17,3 +17,9 @@ links.forEach(link => {
     });
 
 });
+
+// Otimização das imagens dos projetos
+document.querySelectorAll(".project-image img").forEach((image) => {
+    image.loading = "lazy";
+    image.decoding = "async";
+});
