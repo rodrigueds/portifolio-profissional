@@ -511,6 +511,12 @@ footer span {
     overflow: hidden;
 
     transition: 0.3s;
+
+    height: 100%;
+
+    display: flex;
+
+    flex-direction: column;
 }
 
 .project-card:hover {
@@ -537,6 +543,8 @@ footer span {
     height: 100%;
 
     object-fit: cover;
+
+    display: block;
 
     transition: 0.4s;
 }
